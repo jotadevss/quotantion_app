@@ -35,11 +35,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   asp: ^1.3.0
-  dio: ^5.4.0
   intl: ^0.19.0
   routefly: ^1.0.7
   flutter_svg: ^2.0.9
   flutter_animate: ^4.4.0
+  result_dart: ^1.1.0
+  http: ^1.1.2
+  xml: ^6.5.0
 
 dev_dependencies:
   flutter_test:
@@ -64,23 +66,23 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib\assets\icons\arrow.svg
-    - lib\assets\icons\bitcoin.svg
-    - lib\assets\icons\circle-arrow.svg
-    - lib\assets\icons\conversor.svg
-    - lib\assets\icons\dolar.svg
-    - lib\assets\icons\etherum.svg
-    - lib\assets\icons\euro.svg
-    - lib\assets\icons\frank.svg
-    - lib\assets\icons\iene.svg
-    - lib\assets\icons\libra.svg
-    - lib\assets\icons\logo.svg
-    - lib\assets\icons\refresh.svg
-    - lib\assets\icons\submit-arrow.svg
-    - lib\assets\icons\tag-cross.svg
-    - lib\assets\icons\trending-down.svg
-    - lib\assets\icons\trending-up.svg
-    - lib\assets\icons\trending.svg
+    - lib/assets/icons/arrow.svg
+    - lib/assets/icons/bitcoin.svg
+    - lib/assets/icons/circle-arrow.svg
+    - lib/assets/icons/conversor.svg
+    - lib/assets/icons/dolar.svg
+    - lib/assets/icons/etherum.svg
+    - lib/assets/icons/euro.svg
+    - lib/assets/icons/frank.svg
+    - lib/assets/icons/iene.svg
+    - lib/assets/icons/libra.svg
+    - lib/assets/icons/logo.svg
+    - lib/assets/icons/refresh.svg
+    - lib/assets/icons/submit-arrow.svg
+    - lib/assets/icons/tag-cross.svg
+    - lib/assets/icons/trending-down.svg
+    - lib/assets/icons/trending-up.svg
+    - lib/assets/icons/trending.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -96,17 +98,17 @@ flutter:
   fonts:
     - family: Qanelas
       fonts:
-        - asset: lib\assets\fonts\Qanelas-Bold.otf
+        - asset: lib/assets/fonts/Qanelas-Bold.otf
         - weight: 700
-        - asset: lib\assets\fonts\Qanelas-SemiBold.otf
+        - asset: lib/assets/fonts/Qanelas-SemiBold.otf
         - weight: 600
-        - asset: lib\assets\fonts\Qanelas-Medium.otf
+        - asset: lib/assets/fonts/Qanelas-Medium.otf
         - weight: 500
-        - asset: lib\assets\fonts\Qanelas-Regular.otf
+        - asset: lib/assets/fonts/Qanelas-Regular.otf
         - weight: 400
-        - asset: lib\assets\fonts\Qanelas-Light.otf
+        - asset: lib/assets/fonts/Qanelas-Light.otf
         - weight: 300
-        - asset: lib\assets\fonts\Qanelas-Thin.otf
+        - asset: lib/assets/fonts/Qanelas-Thin.otf
         - weight: 200
   #
   # For details regarding fonts from package dependencies,

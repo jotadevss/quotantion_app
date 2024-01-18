@@ -1,6 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:asp/asp.dart';
-import 'package:flutter/material.dart';
 
 import 'package:quotantion_app/app/onboarding/interactor/atoms/onboarding_atom.dart';
 import 'package:quotantion_app/app/onboarding/interactor/states/onboarding_state.dart';

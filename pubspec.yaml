@@ -43,6 +43,7 @@ dependencies:
   http: ^1.1.2
   xml: ^6.5.0
   dio: ^5.4.0
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -84,6 +85,7 @@ flutter:
     - lib/assets/icons/trending-down.svg
     - lib/assets/icons/trending-up.svg
     - lib/assets/icons/trending.svg
+    - lib/assets/icons/reais.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

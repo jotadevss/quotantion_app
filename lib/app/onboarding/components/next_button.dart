@@ -9,7 +9,7 @@ class NextButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: onTap,
       style: const ButtonStyle(
         padding: MaterialStatePropertyAll(EdgeInsets.symmetric(vertical: 24, horizontal: 52)),
         backgroundColor: MaterialStatePropertyAll(kBlackColor),

@@ -7,7 +7,9 @@ import 'package:quotantion_app/app/onboarding/components/select_currency.dart';
 import 'package:quotantion_app/app/onboarding/interactor/atoms/onboarding_atom.dart';
 import 'package:quotantion_app/app/onboarding/interactor/states/onboarding_state.dart';
 import 'package:quotantion_app/app/onboarding/sheets/currency_botton_sheet.dart';
+import 'package:quotantion_app/routes.dart';
 import 'package:quotantion_app/shared/components/loading_widget.dart';
+import 'package:routefly/routefly.dart';
 
 class OnboadingPage extends StatefulWidget {
   const OnboadingPage({super.key});
@@ -49,7 +51,7 @@ class _OnboadingPageState extends State<OnboadingPage> {
                 const Spacer(flex: 1),
                 (state is LoadingOnboardingState) ? const LoadingWidget() : SelectedCurrency(onTap: showCurrencyBottomSheet),
                 const Spacer(flex: 2),
-                NextButton(onTap: () {}),
+                NextButton(onTap: () => Routefly.pushNavigate(routePaths.home)),
                 const Spacer(flex: 2),
               ].animate().move(duration: 900.ms).fade(),
             ),

@@ -6,7 +6,7 @@ import 'package:quotantion_app/app/onboarding/interactor/states/onboarding_state
 import 'package:quotantion_app/core/data/contracts/currency_repository.dart';
 import 'package:quotantion_app/core/data/prefs/currency_prefs_repository.dart';
 import 'package:quotantion_app/core/models/currency.dart';
-import 'package:quotantion_app/shared/atoms/currency_atom.dart';
+import 'package:quotantion_app/shared/interactor/atoms/currency_atom.dart';
 
 class OnboardingReducer extends Reducer {
   final ICurrencyRepository repository;

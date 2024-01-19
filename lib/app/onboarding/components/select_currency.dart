@@ -4,7 +4,7 @@ import 'package:asp/asp.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:quotantion_app/app/onboarding/interactor/atoms/onboarding_atom.dart';
-import 'package:quotantion_app/shared/atoms/currency_atom.dart';
+import 'package:quotantion_app/shared/interactor/atoms/currency_atom.dart';
 import 'package:quotantion_app/shared/constants.dart';
 
 class SelectedCurrency extends StatelessWidget {

@@ -17,7 +17,10 @@ class _HomePageState extends State<HomePage> {
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: Column(
             children: [
-              AppBarHome(onSelect: () {}, onRefresh: () {}),
+              AppBarHome(
+                onSelect: () {},
+                onRefresh: () {},
+              ),
             ],
           ),
         ),

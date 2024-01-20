@@ -5,3 +5,5 @@ final currentCurrencyAtom = Atom<Currency?>(null);
 
 // Getter
 Currency? get currentCurrency => currentCurrencyAtom.value;
+
+final selectCurrencyAction = Atom<Currency?>(null);

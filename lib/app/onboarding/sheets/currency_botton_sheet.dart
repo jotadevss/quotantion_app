@@ -5,6 +5,7 @@ import 'package:quotantion_app/app/onboarding/interactor/atoms/onboarding_atom.d
 import 'package:quotantion_app/app/onboarding/interactor/states/onboarding_state.dart';
 import 'package:quotantion_app/app/onboarding/sheets/components/currency_item.dart';
 import 'package:quotantion_app/shared/constants.dart';
+import 'package:quotantion_app/shared/interactor/atoms/currency_atom.dart';
 import 'package:routefly/routefly.dart';
 
 class CurrencyBottomSheet extends StatelessWidget {
